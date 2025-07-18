@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Calculator ASIC
-  author:       ""      # Manan
+  title:        "Calculator ASIC"      # Calculator ASIC
+  author:       "Manan"      # Manan
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # 3-bit calculator with ability to ADD SUB XOR and  Left-Shift
+  description:  "3-bit calculator with ability to ADD SUB XOR and  Left-Shift"      # 3-bit calculator with ability to ADD SUB XOR and  Left-Shift
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
