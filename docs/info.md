@@ -15,8 +15,9 @@ Output is a total you can ADD, SUBTRACT, XOR, or LEFT_SHIFT with the input.
 
 ## How to test
 
-Explain how to use your project
+Switch 6. after reset, the output should be zero. Hitting enable (Switch 5) will compute the current arithOp (+ = 2'b00, - = 2'b01, ^ = 2'b10, << = 2'b11
+
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+LEDs
