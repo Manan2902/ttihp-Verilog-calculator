@@ -1,4 +1,4 @@
-module tt_um_calculator (
+module calculator (
 	io_in,
 	io_out
 );
