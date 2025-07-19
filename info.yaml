@@ -24,14 +24,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "clock"
+  ui[1]: "reset"
+  ui[2]: "en"
+  ui[3]: "in[0]"
+  ui[4]: "in[1]"
+  ui[5]: "in[2]"
+  ui[6]: "arithmeticOperation[0]"
+  ui[7]: "arithmeticOperation[1]"
 
   # Outputs
   uo[0]: ""
