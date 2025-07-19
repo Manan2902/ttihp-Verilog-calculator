@@ -9,7 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Output is a total you can ADD, SUBTRACT, XOR, or LEFT_SHIFT with the input.
+
+
 
 ## How to test
 
