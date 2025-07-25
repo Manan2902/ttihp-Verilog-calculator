@@ -29,10 +29,10 @@ module calculator (
 			io_out <= 0;
 		else if (enable)			
 			case (arithmeticOperation)
-				2'b00: io_out <= io_out + in;
-				2'b01: io_out <= io_out - in;
+				2'b00: io_out <= io_out + {5'b00000, in};
+				2'b01: io_out <= io_out - {5'b00000, in};
 				2'b10: io_out <= io_out ^ {5'b00000, in};
-				2'b11: io_out <= io_out << in;
+				2'b11: io_out <= io_out << {5'b00000, in};
 			endcase
 
 	always @(posedge clock)
